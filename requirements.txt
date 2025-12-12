@@ -1,1 +1,14 @@
+!wget -q -O /tmp/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+!apt-get update
+!apt-get install -y /tmp/google-chrome.deb
 
+!which google-chrome
+!which google-chrome-stable
+!ls -l /usr/bin | grep chrome
+!ls -l /opt/google/chrome
+
+!pip install requests-html
+
+!pip install lxml_html_clean
+
+!pip install selenium webdriver-manager
